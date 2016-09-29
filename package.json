@@ -1,6 +1,6 @@
 {
-  "name": "authorize-net",
-  "version": "1.0.6",
+  "name": "@reactioncommerce/authorize-net",
+  "version": "1.0.7",
   "description": "Node.js SDK for Authorize.net paymenet gateway.",
   "main": "index.js",
   "scripts": {
@@ -19,11 +19,11 @@
   "author": "Laurent Renard <laurent@continuous.in.th>",
   "license": "MIT",
   "dependencies": {
-    "42-cent-base": "^0.8.0",
+    "42-cent-base": "^1.0.0",
     "42-cent-util": "^1.0.0",
-    "bluebird": "^2.3.11",
-    "request": "2.74.0",
-    "xml2js": "^0.4.6"
+    "bluebird": "^2.11.0",
+    "request": "^2.75.0",
+    "xml2js": "^0.4.17"
   },
   "devDependencies": {
     "42-cent-model": "^2.0.0",
