@@ -4,7 +4,7 @@
   "description": "Node.js SDK for Authorize.net paymenet gateway.",
   "main": "index.js",
   "scripts": {
-    "test": "NODE_ENV='test' node ./node_modules/.bin/mocha ./test/ -R spec -t 35000"
+    "test": "NODE_ENV='test' mocha -R spec -t 5000"
   },
   "repository": {
     "type": "git",
@@ -19,15 +19,15 @@
   "author": "Laurent Renard <laurent@continuous.in.th>",
   "license": "MIT",
   "dependencies": {
-    "42-cent-base": "^1.0.0",
+    "42-cent-base": "^0.8.0",
     "42-cent-util": "^1.0.0",
-    "bluebird": "^2.11.0",
-    "request": "^2.83.0",
-    "xml2js": "^0.4.17"
+    "bluebird": "^2.3.11",
+    "request": "2.83.0",
+    "xml2js": "^0.4.6"
   },
   "devDependencies": {
     "42-cent-model": "^2.0.0",
-    "casual": "^1.4.7",
-    "mocha": "^1.21.4"
+    "casual": "1.4.7",
+    "mocha": "^2.5.3"
   }
 }
