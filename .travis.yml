@@ -5,6 +5,3 @@ before_script:
 - npm install
 script:
 - npm test
-notifications:
-  slack:
-    secure: B6T93BeU8MOJekBhpQ3PM6oaZWKFDDSZ0KapolY5+wGF8e4kv36s5N4Q+K3+bK6WFUngQbc1y3TVgR9Qw9fHRXCZzh8PNTd6cfYfPC38rr5BHWQlWv/BAjsw/PJEpSerHG016k3w/v4fD4Ypa2qSEjDEvzjhdb/qxzmLJjTq340=
